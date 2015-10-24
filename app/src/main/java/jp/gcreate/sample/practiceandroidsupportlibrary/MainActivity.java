@@ -26,6 +26,13 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        findViewById(R.id.link_to_flexible_space_with_image_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(AppBarFlexibleSpaceWithImageActivity.createIntent(MainActivity.this));
+            }
+        });
     }
 
     @Override

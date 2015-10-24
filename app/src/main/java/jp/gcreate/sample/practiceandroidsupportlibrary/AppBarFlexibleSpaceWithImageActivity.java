@@ -1,5 +1,7 @@
 package jp.gcreate.sample.practiceandroidsupportlibrary;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -25,6 +27,11 @@ public class AppBarFlexibleSpaceWithImageActivity extends AppCompatActivity {
             }
         });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+    public static Intent createIntent(Context context){
+        Intent intent = new Intent(context, AppBarFlexibleSpaceWithImageActivity.class);
+        return intent;
     }
 
 }
