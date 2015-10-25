@@ -1,4 +1,4 @@
-package jp.gcreate.sample.practiceandroidsupportlibrary;
+package jp.gcreate.sample.practiceandroidsupportlibrary.activities;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,7 +9,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-public class AppBarFlexibleSpaceWithImageActivity extends AppCompatActivity {
+import jp.gcreate.sample.practiceandroidsupportlibrary.R;
+
+public class AppBarFlexibleSpaceWithImage extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +32,7 @@ public class AppBarFlexibleSpaceWithImageActivity extends AppCompatActivity {
     }
 
     public static Intent createIntent(Context context){
-        Intent intent = new Intent(context, AppBarFlexibleSpaceWithImageActivity.class);
+        Intent intent = new Intent(context, AppBarFlexibleSpaceWithImage.class);
         return intent;
     }
 

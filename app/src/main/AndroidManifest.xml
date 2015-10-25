@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".AppBarFlexibleSpaceWithImageActivity"
+            android:name=".activities.AppBarFlexibleSpaceWithImage"
             android:label="@string/title_activity_app_bar_flexible_space_with_image"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" >

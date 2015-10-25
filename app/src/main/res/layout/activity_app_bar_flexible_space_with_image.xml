@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="jp.gcreate.sample.practiceandroidsupportlibrary.AppBarFlexibleSpaceWithImageActivity">
+    tools:context="jp.gcreate.sample.practiceandroidsupportlibrary.activities.AppBarFlexibleSpaceWithImage">
 
     <android.support.design.widget.AppBarLayout
         android:layout_height="192dp"
