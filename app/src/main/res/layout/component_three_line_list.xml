@@ -11,7 +11,7 @@
         android:id="@+id/border_top"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/colorDivider"
+        android:background="@color/dividers_on_light"
         />
 
     <TextView
@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="16sp"
-        android:textColor="@color/colorText"
+        android:textColor="@color/text_on_light"
         android:paddingTop="8dp"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="14sp"
-        android:textColor="@color/colorSecondaryText"
+        android:textColor="@color/secondaryText_icons_on_light"
         android:paddingTop="8dp"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
@@ -45,7 +45,7 @@
         android:layout_below="@id/secondary_text"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/colorDivider"
+        android:background="@color/dividers_on_light"
         />
 
 </RelativeLayout>
