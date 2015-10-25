@@ -1,10 +1,9 @@
 package jp.gcreate.sample.practiceandroidsupportlibrary.activities;
 
-import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -12,9 +11,6 @@ import android.view.View;
 import jp.gcreate.sample.practiceandroidsupportlibrary.R;
 
 public class AppBarFlexibleSpaceWithImage extends AppCompatActivity {
-    public static final String TITLE = "AppBarFlexibleSpaceWithImage";
-    public static final String DESCRIPTION = "AppBar with image that collapsing by contents scrolled.";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,12 +26,9 @@ public class AppBarFlexibleSpaceWithImage extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
     }
-
-    public static Intent createIntent(Context context){
-        Intent intent = new Intent(context, AppBarFlexibleSpaceWithImage.class);
-        return intent;
-    }
-
 }
