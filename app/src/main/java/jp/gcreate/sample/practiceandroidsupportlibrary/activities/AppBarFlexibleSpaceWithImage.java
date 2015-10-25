@@ -12,6 +12,8 @@ import android.view.View;
 import jp.gcreate.sample.practiceandroidsupportlibrary.R;
 
 public class AppBarFlexibleSpaceWithImage extends AppCompatActivity {
+    public static final String TITLE = "AppBarFlexibleSpaceWithImage";
+    public static final String DESCRIPTION = "AppBar with image that collapsing by contents scrolled.";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
