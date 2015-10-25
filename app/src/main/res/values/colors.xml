@@ -9,4 +9,8 @@
     <color name="secondaryText_icons_on_light">#8a000000</color>
     <color name="hintText_disabled_on_light">#80000000</color>
     <color name="dividers_on_light">#1f000000</color>
+    <color name="text_on_dark">#ffffffff</color>
+    <color name="secondaryText_icons_on_dark">#b3ffffff</color>
+    <color name="hintText_disabled_on_dark">#4dffffff</color>
+    <color name="dividers_on_dark">#1fffffff</color>
 </resources>
