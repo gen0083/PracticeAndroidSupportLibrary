@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="black">#000000</color>
-    <color name="white">#ffffff</color>
-    <color name="text_on_light">#de000000</color>
-    <color name="secondaryText_icons_on_light">#8a000000</color>
-    <color name="hintText_disabled_on_light">#80000000</color>
-    <color name="dividers_on_light">#1f000000</color>
-    <color name="text_on_dark">#ffffffff</color>
-    <color name="secondaryText_icons_on_dark">#b3ffffff</color>
-    <color name="hintText_disabled_on_dark">#4dffffff</color>
-    <color name="dividers_on_dark">#1fffffff</color>
+    <color name="colorPrimary">@color/indigo_500</color>
+    <color name="colorPrimaryDark">@color/indigo_700</color>
+    <color name="colorAccent">@color/pink_a200</color>
 </resources>
