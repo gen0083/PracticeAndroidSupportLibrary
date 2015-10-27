@@ -7,6 +7,11 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.BaseAdapter;
+import android.widget.ListView;
+
+import java.util.*;
 
 import jp.gcreate.sample.practiceandroidsupportlibrary.R;
 
@@ -30,5 +35,10 @@ public class AppBarFlexibleSpaceWithImage extends AppCompatActivity {
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
+
+        ListView listView = (ListView) findViewById(R.id.listView);
+        List<String> data = Arrays.asList("1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f");
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, data);
+        listView.setAdapter(adapter);
     }
 }

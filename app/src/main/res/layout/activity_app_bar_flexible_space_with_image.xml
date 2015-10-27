@@ -42,15 +42,13 @@
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
 
-    <ScrollView
+    <ListView
+        android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:nestedScrollingEnabled="true"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        >
-        <include layout="@layout/so_many_long_contents" />
-
-    </ScrollView>
+        />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
